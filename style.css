@@ -1,5 +1,9 @@
 body{
     background-color: bisque;
+    background-image: url("./image/nature-3082832_1280.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
 }
 .parent{
     position: absolute;
@@ -11,8 +15,22 @@ body{
     box-shadow: 5px 10px 5px ;
     border-radius: 5%;
     background-color: aqua;
+    background-image: url("./image/bc.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 h1{
+    background-image: url("./image/flame.gif");
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+}
+li{
+    font-size: large;
+    font-weight: bolder;
+    font: 2rem sans-serif;
     background-image: url("./image/flame.gif");
     background-size: cover;
     background-position: center;
